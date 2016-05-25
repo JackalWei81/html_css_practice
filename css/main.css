@@ -1,0 +1,205 @@
+ul {
+	margin: 0;
+	padding-left: 0;
+}
+
+h1 , h2 , h3 {
+	margin: 0;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+	}
+
+#header {
+	position: fixed;
+	width: 100%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+section {
+	padding-bottom: 40px;
+}
+#logo {
+	float: left;
+	font-size: 1.5em;
+}
+
+#header nav {
+	float: right;
+}
+
+#header ul {
+	list-style-type: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#header li {
+	float: left;
+	line-height: 80px;
+	font-size: 10px;
+}
+
+#header a {
+	display: block;
+	width: 110px;
+	text-decoration: none;
+	color: black;
+}
+
+.header {
+	padding: 20px;
+	padding-top: 200px;
+	background-color: #76FEF2;
+	color: white;
+}
+
+.header .topic {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+h1 {
+	font-size: 80px;
+	text-transform: uppercase;
+}
+
+.portfolio {
+	padding-top: 120px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+h2 {
+	text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+}
+
+.portfolio p {
+  text-transform: capitalize;
+  font-size: 10px;
+}
+
+hr {
+  width: 50px;
+  color: black;
+}
+
+.item {
+	margin: 0 auto;
+	width: 600px;
+}
+
+.item ul {
+	list-style-type: none;
+	text-align: center;
+	text-transform: uppercase;fs
+}
+
+.item li {
+	float: left;
+	line-height: 80px;
+	font-size: 10px;
+}
+
+em {
+  color: #9BFDF8;
+  font-style: normal;
+}
+
+.item a {
+	display: block;
+	width: 110px;
+	text-decoration: none;
+	color: black;
+}
+
+.row {
+	margin: 0 -15px;
+}
+
+.col-4 {
+  float: left;
+	padding: 15px 15px;
+	width: 33.333333%;
+	box-sizing: border-box;
+}
+
+.selected {
+  width: 330px;
+  height: 150px;
+  position: relative;
+  background-color: black;
+  top: -210px;
+  left: 20px;
+  text-align: center;
+  padding-top: 40px
+}
+
+.selected p {
+	font-size: 10px;
+	text-transform: capitalize;
+	color: white;
+	padding-bottom: 20px;
+}
+
+.selected a {
+	color: #87E8E2;
+  text-decoration: none;
+}
+
+.load{
+	width: 100px;
+	margin: 0 auto;
+	font-size: 10px;
+	text-align: center;
+}
+
+#footer {
+	background-color: #FFD96E;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.name{
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.connect {
+	margin: 0 auto;
+	width: 550px;
+}
+
+.connect ul {
+	list-style-type: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.connect li {
+	float: left;
+	font-size: 10px;
+	line-height: 50px;
+}
+
+.connect a {
+	display: block;
+	width: 110px;
+	text-decoration: none;
+	color: black;
+}
+
+p {
+	font-size: 10px;
+}
+
+
+
