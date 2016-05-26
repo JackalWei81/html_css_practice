@@ -8,7 +8,7 @@ h1 , h2 , h3 {
 }
 
 .container {
-	width: 1200px;
+	width: 1172px;
 	margin: 0px auto;
 	}
 
@@ -24,9 +24,11 @@ h1 , h2 , h3 {
 section {
 	padding-bottom: 40px;
 }
+
 #logo {
 	float: left;
-	font-size: 1.5em;
+	font-size: 30px;
+	font-weight: 700;
 }
 
 #header nav {
@@ -126,9 +128,10 @@ em {
 
 .col-4 {
   float: left;
-	padding: 15px 15px;
+	padding: 15px;
 	width: 33.333333%;
 	box-sizing: border-box;
+	margin-bottom: -195px
 }
 
 .selected {
@@ -186,8 +189,9 @@ em {
 
 .connect li {
 	float: left;
-	font-size: 10px;
+	font-size: 15px;
 	line-height: 50px;
+	font-weight: 700;
 }
 
 .connect a {
@@ -197,7 +201,7 @@ em {
 	color: black;
 }
 
-p {
+#footer p {
 	font-size: 10px;
 }
 
