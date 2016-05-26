@@ -8,13 +8,14 @@ h1 , h2 , h3 {
 }
 
 .container {
-	width: 1172px;
-	margin: 0px auto;
+	max-width: 1172px;
+	margin: 0 auto;
 	}
 
 #header {
 	position: fixed;
 	width: 100%;
+  z-index: 20;
 }
 
 .clearfix {
@@ -48,14 +49,49 @@ section {
 }
 
 #header a {
-	display: block;
+  display: block;
 	width: 110px;
 	text-decoration: none;
 	color: black;
 }
 
+#logo, #menu-button {
+  position: relative;
+  z-index: 5;
+}
+
+nav.open {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  line-height: 10;
+  font-size: 10rem;
+  background-color: #ccc;
+  text-align: center;
+  padding-top: 100px;
+}
+
+nav.open a {
+  font-size: 20px;
+}
+
+
+#menu-button {
+  display: none;
+  float: right;
+  width: 50px;
+  top:20px;
+  cursor: pointer;
+}
+
+#menu-button img {
+  width: 100%;
+  height: auto;
+}
+
+
 .header {
-	padding: 20px;
 	padding-top: 200px;
 	background-color: #76FEF2;
 	color: white;
@@ -67,8 +103,9 @@ section {
 }
 
 h1 {
-	font-size: 80px;
+	font-size: 3em;
 	text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .portfolio {
@@ -215,5 +252,37 @@ em {
 	font-size: 10px;
 }
 
+@media (max-width: 1100px) {
 
+  .container {
+    max-width: 1100px;
+  }
+
+  .col-4 {
+    width: 50%;
+    left:2%;
+  }
+
+}
+
+@media (max-width: 750px) {
+
+  .container {
+    max-width: 750px;
+  }
+
+  .col-4 {
+    width: 100%;
+    left:15%
+  }
+
+  nav {
+    display: none;
+  }
+
+  #menu-button {
+    display: block;
+  }
+
+}
 
